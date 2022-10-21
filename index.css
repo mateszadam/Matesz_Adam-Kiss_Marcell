@@ -46,3 +46,22 @@ html{
     height: 30vh;
     width: fit-content;
 }
+.rolunk{
+    position: fixed;
+    bottom: 20px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    background-color: #116466;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.699);
+    border-radius: 20px;
+    transition: .5s bottom ease-in-out;
+}
+.rolunk p{
+    color: black;
+    
+}
+.rolunk:hover{
+    bottom: 40px;
+}
