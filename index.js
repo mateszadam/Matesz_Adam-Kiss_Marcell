@@ -14,3 +14,27 @@ var browserName = (function (agent) {
 if(browserName.toString() == "MS Edge"){
     alert("Nem támogatott böngésző")
 }
+
+window.onscroll = function a() {
+    if(window.pageYOffset > 10){
+        document.getElementById("eltun").style.opacity = "0"
+        setTimeout(anim_n, 200);
+    }
+    if(window.pageYOffset <= 5){
+        anim_b();
+
+        document.getElementById("eltun").style.opacity = "1"
+        setTimeout(a, 8);
+    }
+};
+function anim_n(){
+    document.getElementById("eltun").style.display = "none"
+}
+
+function anim_b(){
+    document.getElementById("eltun").style.display = "block"
+}
+function elo(){
+    anim_b()
+    document.getElementById("eltun").style.opacity = "1"
+}

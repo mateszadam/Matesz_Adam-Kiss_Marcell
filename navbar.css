@@ -10,10 +10,12 @@ body{
 }
 
 .wrapper{
-    position: absolute;
+    position: fixed;
     top: 120px;
     right: 10px;
     transform: translate(-50%, -50%);
+    z-index: 20;
+    transition: 0.5s ease-in-out;
 }
 .mainMenu{
     width: 250px;
