@@ -118,3 +118,16 @@ body{
 .item:target .subMenu{
     max-height: 10em;
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+::-webkit-scrollbar-thumb {
+    background: #D9B08C;
+    border-radius: 20px;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
