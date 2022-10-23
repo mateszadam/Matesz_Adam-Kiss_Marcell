@@ -11,7 +11,7 @@ body{
 
 .wrapper{
     position: fixed;
-    top: 120px;
+    top: 145px;
     right: 10px;
     transform: translate(-50%, -50%);
     z-index: 20;
