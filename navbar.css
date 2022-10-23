@@ -11,7 +11,7 @@ body{
 
 .wrapper{
     position: fixed;
-    top: 145px;
+    top: 170px;
     right: 10px;
     transform: translate(-50%, -50%);
     z-index: 20;
@@ -116,7 +116,7 @@ body{
     border:none;
 }
 .item:target .subMenu{
-    max-height: 10em;
+    max-height: 20em;
 }
 ::-webkit-scrollbar {
     width: 10px;
