@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&display=swap');
+
+td, li{
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    border-bottom: 2px solid black;
+
+}
+
+
+.item2{
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: calc(40% - 4px);
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #ffcb9a;
+    color: #2C3531;
+    float: left;
+    font-size: 20px;
+    
+}
+.item2 h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+table{
+    text-align: center;
+}
+
+.item2 .left{
+    width: 50%;
+    float: center;
+}
+#small_nav{
+    position: fixed;
+    top: 0px;
+    right: 10%;
+    z-index: 19;
+    background-color: #116466;
+    border-radius: 20px;
+}
+.item2 .right{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item2 .left img{
+    height: 300px;    
+}
+.center{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.center2{
+    margin-top: 50px;
+}
+
+.table_img{
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+.table_img2{
+    width: 50%;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+.cim{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 10;
+    background: linear-gradient(to top,#ffcb9ae0,#ffcb9a);
+
+    text-align: center;
+    height: 50px;
+    font-size: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid black;
+    border-top: 0px;
+}
+.w{
+    width: 100%;
+}
+
+.footer{
+    width: 75%;
+    padding: 2px;
+    margin-top: 35px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 14px;
+    min-height: 45px;
+    margin-bottom: 10px;
+    background-color: #ffcb9a;
+}
+
+.footer p{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.footer p:first-child{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 2px solid black;
+}
