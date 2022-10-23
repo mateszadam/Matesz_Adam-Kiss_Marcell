@@ -17,8 +17,11 @@
             <li class="item" id="account">
                 <a href="#account" class="btn"><i class="fas fa-user-circle"></i>Kemény János</a>
                 <div class="subMenu">
-                    <a href="">Élete</a>
-                    <a href="">Találmányai</a>
+                    <a href="#info">Infromációk</a>
+                    <a href="#mu">Föbb művei</a>
+                    <a href="#elet">Élete</a>
+                    <a href="#for">Képek és Források</a>
+
                 </div>
             </li>
             <li class="item" id="about">
@@ -40,11 +43,13 @@
         </ul>
     </div>
     <div class="cim">Kemény János élete</div>
-    
-    <a href="#account"><div id="small_nav" onclick="elo()"><img src="img/menu_FILL0_wght400_GRAD0_opsz48.svg" alt=""></div></a>
-    <br><br><br><br><br><br>
+
+    <a href="#account">
+        <div id="small_nav" onclick="elo()"><img src="img/menu_FILL0_wght400_GRAD0_opsz48.svg" alt=""></div>
+    </a>
+
     <div class="body">
-        <div class="item2">
+        <div class="item2" id="info">
             <h1>Föbb információk</h1>
             <!-- <div class="left"><div class="center"><img src="img/kemeny.jpg" alt=""></div></div> -->
             <div class="right">
@@ -91,7 +96,7 @@
 
         </div>
 
-        <div class="item2">
+        <div class="item2" id="mu">
             <h1>Főbb művei</h1>
             <!-- <div class="left"><div class="center"><img src="img/kemeny.jpg" alt=""></div></div> -->
             <div class="right">
@@ -109,7 +114,7 @@
             <br>
         </div>
         <div style="clear: both;"></div>
-        <div class="item2">
+        <div class="item2" id="elet">
             <h1>Élete</h1>
             <!-- <div class="left"><div class="center"><img src="img/kemeny.jpg" alt=""></div></div> -->
             <div class="right">
@@ -133,9 +138,32 @@
                         <li>1964-ben egy rövid időre visszatért magyarországra.</li>
                     </ul>
                 </div>
-            </div> 
-           <br>
+            </div>
+            <br>
         </div>
+        <div class="item2" id="for">
+            <h1>Képek és Források</h1>
+            <!-- <div class="left"><div class="center"><img src="img/kemeny.jpg" alt=""></div></div> -->
+            <div class="right">
+                <div class="center2">
+
+                    <img class="table_img" src="img/kemeny_janos2.jfif" alt="">
+                    <img class="table_img" src="img/kemeny_janos3.jpg" alt="">
+
+                    <ul>
+                        <li><a href="https://docs.google.com/document/d/1MzRhAnxCIrGSEdihWPAPRFIzOSbFTuLHXl5hPO11DdQ/edit">Wikipédia 2022.10.23</a></li>
+                        <li><a href="https://itf.njszt.hu/szemely/kemeny-janos-gyorgy">Informatikatörténeti fórum 2022.10.23</a></li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+
+    <div style="clear: both;"></div>
+
+    <div class="footer">
+        <p>Készítette: Matesz Ádám 2022.10.23</p>
     </div>
     <script src="index.js"></script>
 </body>

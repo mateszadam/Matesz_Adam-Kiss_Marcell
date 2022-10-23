@@ -21,7 +21,7 @@ td, li{
     color: #2C3531;
     float: left;
     font-size: 20px;
-    
+    box-shadow: 10px 10px #c5660cb3;
 }
 .item2 h1{
     text-align: center;
@@ -84,5 +84,11 @@ table{
     border-top: 0px;
 }
 .w{
+    width: 100%;
+}
+.footer{
+    margin-top: 30px;
+    background-color: #ffcb9a;
+    text-align: center;
     width: 100%;
 }
