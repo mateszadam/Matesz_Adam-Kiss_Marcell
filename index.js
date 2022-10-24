@@ -22,6 +22,18 @@ var browserName = (function (agent) {
 if (browserName.toString() == "MS Edge") {
   alert("Nem támogatott böngésző");
 }
+;
+var path = window.location.pathname;
+var page = path.split("/").pop();
+console.log( page );
+var NAME = "";
+if(page == "kemeny.html"){
+    NAME = "#account"
+} 
+else if (page == "janosi.html"){
+    NAME = "#about"
+
+}
 var LINK = false;
 window.onscroll = function a() {
   if (window.pageYOffset > 10) {
@@ -42,7 +54,7 @@ window.onscroll = function a() {
 };
 function linkker() {
   if (LINK) {
-    window.location = "http://127.0.0.1:5500/kemeny.html#account";
+    window.location = "http://127.0.0.1:5500/" + page + NAME;
     LINK = false
 
 }

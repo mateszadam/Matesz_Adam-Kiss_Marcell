@@ -12,38 +12,44 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <ui class="mainMenu">
+    <div class="wrapper" id="eltun">
+        <ul class="mainMenu">
             <li class="item" id="account">
-                <a href="#account" class="btn"><i class="fas fa-user-circle"></i>Kemény János</a>
+                <a href="kemeny.html#account" class="btn"><i class="fas fa-user-circle"></i>Kemény János</a>
                 <div class="subMenu">
-                    <a href="">Élete</a>
-                    <a href="">Találmányai</a>
+                    <a href="#info">Föbb információk</a>
+                    <a href="#mu">Föbb művei</a>
+                    <a href="#elet">Élete</a>
+                    <a href="#for">Képek és Források</a>
                 </div>
             </li>
             <li class="item" id="about">
                 <a href="#about" class="btn"><i class="fas fa-address-card"></i>Jánosi Marcell</a>
                 <div class="subMenu">
-                    <a href="">Élete</a>
-                    <a href="">Találmányai</a>
+                    <a href="#info">Föbb információk</a>
+                    <a href="#mu">Feltalálói élete 1957-ig</a>
+                    <a href="#elet">Főbb találmányai</a>
+                    <a href="#for">Feltalálói élete 1957-től</a>
                 </div>
             </li>
             <li class="item" id="support">
-                <a href="#support" class="btn"><i class="fas fa-info"></i>Rólunk</a>
+                <a href="rolunk.html#support" class="btn"><i class="fas fa-info"></i>Rólunk</a>
                 <div class="subMenu">
-                    <a href="">Matesz Ádám</a>
+                    <a href="#MA">Matesz Ádám</a>
                 </div>
                 <div class="subMenu">
-                    <a href="">Kiss Marcell</a>
+                    <a href="#KM">Kiss Marcell</a>
                 </div>
+           </li>
+        </ul> 
     </div>
     <div class="cim">Jánosi Marcell, a bűvös flopi atyja</div>
 
-    <a href="#account">
+    <a href="#about">
         <div id="small_nav" onclick="elo()"><img src="img/menu_FILL0_wght400_GRAD0_opsz48.svg" alt=""></div>
     </a>
     <div class="body">
-        <div class="item2">
+        <div class="item2" id="info">
             <h1>Föbb információk</h1>
             <div class="right">
                 <div class="center2">
@@ -88,7 +94,7 @@
             <br>
 
         </div>
-        <div class="item2">
+        <div class="item2" id="mu">
             <h1>Feltalálói élete 1957-ig</h1>
             <div class="right">
                 <div class="center2">
@@ -108,7 +114,7 @@
         </div>
 
         <div style="clear: both;"></div>
-        <div class="item2">
+        <div class="item2" id="elet">
             <h1>Főbb találmányai, tervezései</h1>
             <div class="right">
                 <div class="center2">
@@ -125,7 +131,7 @@
             <br>
         </div>
 
-        <div class="item2">
+        <div class="item2" id="for">
             <h1>Feltalálói élete 1957-től</h1>
             <div class="right">
                 <div class="center2">
