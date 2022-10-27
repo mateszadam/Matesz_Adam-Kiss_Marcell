@@ -11,21 +11,19 @@
 }
 .container1 {
   display: flex;
-  width: 1920px;
+  width: fit-content;
+  /*calc((100% - 700)/2) */
   flex-wrap: wrap;
-}
-
-.card1:first-child{
-    margin-left: 30%;
-}
-
-.card1:last-child{
-    margin-right: 30%;
-    float: right;
+  margin-left: auto;
+  margin-right: auto;
 
 }
+
 
 .card1 {
+  margin-left: 30px;
+  margin-right: 30px;
+  float: right;
   margin: 10px;
   background-color: #ffcb9a;
   border-radius: 10px;
@@ -91,4 +89,15 @@ h4{
 
 .card-body1 li{
     text-decoration: 2px #394c7f;
+}
+#small_nav{
+  position: fixed;
+  top: 0px;
+  right: 10%;
+  z-index: 19;
+  background-color: #116466;
+  border-radius: 20px;
+}
+.wrapper{
+  top: 120px;
 }
