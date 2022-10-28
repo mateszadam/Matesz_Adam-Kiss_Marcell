@@ -54,7 +54,7 @@ window.onscroll = function a() {
 };
 function linkker() {
   if (LINK) {
-    window.location = "http://127.0.0.1:5500/" + page + NAME;
+    window.location = page + NAME;
     LINK = false
 
 }
