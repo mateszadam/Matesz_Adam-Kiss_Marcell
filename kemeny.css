@@ -85,9 +85,34 @@ table{
 .w{
     width: 100%;
 }
+
+.link{
+    font-family: 'IBM Plex Mono', monospace;
+    
+    color: #000;
+}
+.link:hover{
+    color: #c5650c;
+}
 .footer{
-    margin-top: 30px;
-    background-color: #ffcb9a;
+    width: 75%;
+    padding: 2px;
+    margin-top: 35px;
     text-align: center;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 14px;
+    min-height: 45px;
+    margin-bottom: 10px;
+    background-color: #ffcb9a;
+}
+
+.footer p{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.footer p:first-child{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 2px solid black;
 }

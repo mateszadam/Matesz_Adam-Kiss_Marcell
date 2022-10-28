@@ -8,6 +8,10 @@
 body{
     background-color: #2C3531;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 
 .wrapper{
     position: fixed;
